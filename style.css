@@ -23,6 +23,9 @@ h2{
 a{
     color: #df2839;
 }
+a:hover{
+    color: #ff705b;
+}
 #contents{
     margin: 40px;
     padding: 40px 80px;
@@ -31,6 +34,12 @@ a{
 }
 .more{
     text-align: right;
+
+}
+.more::after{
+    content: url(G1\img\ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
 }
 .h{
     padding: 10px;
@@ -38,4 +47,10 @@ a{
     border: 1px dotted #94c8b1;
     border-left: 10px solid #d0e35b;
     color: #6fbb9a;
+}
+#contents>section+section{
+    margin-top: 80px;
+}
+header,nav,footer{
+    text-align: center;
 }
