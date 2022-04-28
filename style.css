@@ -114,3 +114,6 @@ header,nav,footer{
     display: block;
     clear: both;
 }
+.img-round{
+    border-radius: 60%;
+}
