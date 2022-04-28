@@ -1,8 +1,13 @@
 body{
+    /*
     background-color: beige;
     color:rgb(14, 14, 14);
     background-image: url(G1/img/bg.png);
     background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 50px 70px;
+    */
+    background: rgb(252, 239, 223) url(img/bg.png) repeat-x;
 }
 h1{
     width: 300px;
@@ -34,9 +39,9 @@ a:hover{
     color: #ff705b;
 }
 #contents{
-    width: 798px;
-    height: 40px auto;
+    width: 798x;
     margin: 40px auto;
+    margin: 40px;
     padding: 40px 80px;
     border: 1px solid #f6bb9e;
     background-color: #fff;
@@ -69,11 +74,17 @@ a[href^="mailto:"]::after{
     border-radius: 5px 0 0 5px;
 }
 .h-sub{
+    font-weight: normal;
+}
+.h-sub{
     padding: 10px;
     background-color: #fbf9cc;
     color: #ff705b;
     border-radius: 10px;
     box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+section+section{
+    margin-top: 80px;
 }
 #contents>section+section{
     margin-top: 80px;
