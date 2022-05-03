@@ -1,12 +1,13 @@
 body{
     background-color: bisque;
-    
+    background-image: url(11110413\img\色票.png);
+    background-repeat: repeat-x;
 }
 h1{
     font-family: 'Limelight', cursive;
     margin: 20px auto;
     padding: 5px;
-    text-align: left;
+    text-align: center;
     line-height: 1;
     font-size: 200%;
 }
@@ -27,9 +28,47 @@ a:hover{
 }
 #contents{
     width: 798x;
-    margin: 40px auto;
+    margin: 80px auto;
     margin: 30px;
     padding: 40px 60px;
     border: 3px solid #f6bb9e;
     background-color: #fff;
+}
+.imgl{
+    float: left;
+    margin-right: 60px;
+    border-radius: 60%;
+}
+.more{
+    float: left;
+      
+}
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    margin: 0 10px;
+    text-align: center;
+}
+#menu a{
+    display: block;
+    padding: 10px;
+    background-color: #ffe066;
+    border-radius: 8px;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: #aca747;
+}
+section+section{
+    margin-top: 60px;
+}
+.th{
+    width: 80px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
