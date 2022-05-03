@@ -1,8 +1,15 @@
 body{
     background-color: bisque;
+    color: rgb(52, 52, 52);
+    margin: 0px;
+}
+body{
     background-image: url(11110413\img\色票.png);
     background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 50px 70px;
 }
+
 h1{
     font-family: 'Limelight', cursive;
     margin: 20px auto;
