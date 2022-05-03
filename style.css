@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
     background-size: 50px 70px;
     */
-    background: rgb(252, 239, 223) url(img/bg.png) repeat-x;
+    background: rgb(252, 239, 223) url(G1\img\bg.png) repeat-x;
 }
 h1{
     width: 300px;
