@@ -12,11 +12,15 @@ body{
 
 h1{
     font-family: 'Limelight', cursive;
+    width: 350px;
+    height: 50px;
     margin: 20px auto;
     padding: 5px;
     text-align: center;
     line-height: 1;
-    font-size: 200%;
+    border-radius: 40%;
+    font-size: 300%;
+    background-image: linear-gradient(to bottom,#5ca2ce,#cad6f7);
 }
 h2{
     font-family: 'Limelight', cursive;
@@ -34,12 +38,14 @@ a:hover{
     color: dimgrey;
 }
 #contents{
-    width: 798x;
-    margin: 80px auto;
-    margin: 30px;
+    width: 798px;
+    margin: 40px auto;
     padding: 40px 60px;
     border: 3px solid #f6bb9e;
     background-color: #fff;
+}
+h1,nav,header{   
+    text-align: center;
 }
 .imgl{
     float: left;
@@ -68,14 +74,21 @@ a:hover{
 #menu a:hover{
     background-color: #aca747;
 }
-section+section{
-    margin-top: 60px;
+section{
+    margin-bottom: 150px;
 }
 .th{
-    width: 80px;
+    width: 100px;
+
 }
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
+}
+.img-round {
+    border-radius: 50%;
+  }
+  p{
+    font-size: 20px;
 }
