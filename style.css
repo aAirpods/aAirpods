@@ -128,3 +128,25 @@ header,nav,footer{
 .img-round{
     border-radius: 60%;
 }
+nav{
+    background-color: rgb(255, 182, 47);
+    text-align: right;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: rgb(253, 208, 154);
+    color: red;
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+nav ul{
+    margin: 0px;
+}
