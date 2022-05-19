@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+/*導覽列樣式設定*/
+body,ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav{
+    background-color: rgb(255, 187, 104);
+    }
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: lightyellow;
+    color: red;
+    transition: background-color 1s linear,color 1s ease-in-out;
+}
+
+/*標題列樣式設定*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 198, 123,60%);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Limelight', cursive;
+}
+
+/*相片清單樣式設定*/
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+
+.goup{
+    font-size: 50px;
+    color: rgb(99, 187, 209);
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    background-color: rgb(249, 255, 71);
+    border-radius: 50%;
+}
